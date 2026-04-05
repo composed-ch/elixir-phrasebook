@@ -1,0 +1,21 @@
+baseURL = 'https://elixir-phrasebook.composed.ch'
+languageCode = 'en-us'
+title = 'Elixir Phrasebook'
+
+[module]
+[[module.imports]]
+path = 'github.com/McShelby/hugo-theme-relearn'
+
+[minify]
+minifyOutput = true
+
+[params]
+disableInlineCopyToClipBoard = true
+math = true
+openapi = false
+showVisitedLinks = true
+themeVariant = 'red'
+hideAuthorDate = true
+
+[params.author]
+name = 'Patrick Bucher, Composed GmbH'
