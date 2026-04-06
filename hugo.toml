@@ -14,7 +14,7 @@ disableInlineCopyToClipBoard = true
 math = true
 openapi = false
 showVisitedLinks = true
-themeVariant = 'red'
+themeVariant = 'learn'
 hideAuthorDate = true
 
 [params.author]
