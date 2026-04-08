@@ -48,3 +48,24 @@ Of the build tool `mix`:
 ```bash
 mix --version
 ```
+
+## Using Mix
+
+Create a project called `scratch`:
+
+```bash
+mix new scratch
+```
+
+Run IEx for the `scratch` project:
+
+```bash
+cd scratch
+iex -S mix
+```
+
+Recompile the `Scratch` module in `lib/scratch.ex`:
+
+```elixir
+> r Scratch
+```
